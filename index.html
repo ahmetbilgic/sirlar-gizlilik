@@ -14,55 +14,116 @@
   h2 { font-size: 1.25rem; margin-top: 32px; }
   .muted { opacity: .7; font-size: .95rem; }
   a { color: #2EC4B6; }
-  code { background: rgba(128,128,128,.15); padding: 1px 5px; border-radius: 4px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+  th, td { border: 1px solid rgba(128,128,128,.35); padding: 8px 10px;
+           text-align: left; vertical-align: top; font-size: .96rem; }
+  th { background: rgba(128,128,128,.12); }
 </style>
 </head>
 <body>
   <h1>Sırlar — Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: 26 Temmuz 2026</p>
+  <p class="muted">Son güncelleme: 28 Temmuz 2026</p>
 
-  <p><strong>Sırlar</strong> (“uygulama”) bir kelime avı oyunudur. Gizliliğinize
-  önem veriyoruz. Bu politika, uygulamayı kullandığınızda hangi verilerin
-  işlendiğini açıklar.</p>
+  <p><strong>Sırlar</strong> (“uygulama”) Türkiye’nin illerini konu alan bir
+  kelime avı oyunudur. Bu politika, uygulamayı kullandığınızda hangi verilerin
+  işlendiğini, kimin işlediğini ve haklarınızı açıklar.</p>
 
-  <h2>1. Topladığımız veriler</h2>
-  <p>Uygulamanın kendisi <strong>adınız, e-postanız veya konumunuz gibi kişisel
-  bilgileri toplamaz</strong>; hesap oluşturmanızı istemez.</p>
+  <p><strong>Veri sorumlusu:</strong> Ahmet Bilgiç (bireysel geliştirici) —
+  iletişim: <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a></p>
+
+  <h2>1. Kısaca</h2>
   <ul>
-    <li><strong>Oyun ilerlemesi:</strong> Tamamladığınız bölümler, altın, yıldız,
-      seri ve rozetler yalnızca <strong>cihazınızda yerel olarak</strong> saklanır
-      (sunucularımıza gönderilmez).</li>
-    <li><strong>Oyun içeriği:</strong> Bölüm/kelime verileri güncel kalması için
-      internetten (herkese açık bir dosyadan) indirilir. Bu istekte kişisel
-      veriniz gönderilmez.</li>
+    <li>Hesap açmanızı istemiyoruz; adınızı, e-postanızı, telefon numaranızı
+      veya konum izninizi <strong>istemiyoruz</strong>.</li>
+    <li>Oyun ilerlemeniz <strong>yalnızca cihazınızda</strong> saklanır.</li>
+    <li>Uygulamada <strong>reklam</strong> (Google AdMob) ve <strong>ölçüm</strong>
+      (Google Firebase) hizmetleri kullanılır; bu hizmetler kendi
+      politikaları kapsamında bazı veriler toplar. Ayrıntısı aşağıda.</li>
+    <li>Reklamların tamamı <strong>isteğe bağlıdır</strong>; izlemek zorunda
+      değilsiniz, oyunun hiçbir bölümü reklam izlemeye kilitli değildir.</li>
   </ul>
 
-  <h2>2. Reklamlar (Google AdMob)</h2>
-  <p>Uygulamada, isteğe bağlı ödüller (ipucu, günlük ödül, seri kurtarma) için
-  izlediğiniz <strong>ödüllü reklamlar</strong> gösterilir. Bu reklamlar
-  <strong>Google AdMob</strong> tarafından sunulur. AdMob, reklamları sunmak ve
-  ölçmek için cihaz tanımlayıcıları ve kullanım verileri gibi bilgileri kendi
-  gizlilik politikası kapsamında işleyebilir:</p>
-  <p><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-  <p>iOS’ta, izniniz olmadıkça kişiselleştirilmiş reklam takibi yapılmaz.</p>
+  <h2>2. Cihazınızda kalan veriler</h2>
+  <p>Tamamladığınız bölümler, altın, yıldız, seri, rozetler, satın aldığınız
+  oyun tahtası temaları ve ayarlarınız cihazınızın yerel deposunda tutulur.
+  Bu veriler bize <strong>gönderilmez</strong>. Uygulamayı silerseniz ya da
+  <em>Ayarlar &gt; İlerlemeyi Sıfırla</em> derseniz tamamı silinir.</p>
 
-  <h2>3. Verilerin paylaşımı</h2>
-  <p>Verilerinizi satmıyoruz. Reklam hizmeti dışında üçüncü taraflarla kişisel
-  veri paylaşmıyoruz.</p>
+  <h2>3. Oyun içeriğinin indirilmesi</h2>
+  <p>Bölüm ve kelime verileri güncel kalsın diye internetten, herkese açık bir
+  dosyadan indirilir. Bu istekte kişisel veriniz gönderilmez; yalnızca standart
+  bağlantı bilgileri (IP adresi gibi) barındırma sağlayıcısına ulaşır.</p>
 
-  <h2>4. Çocuklar</h2>
-  <p>Uygulama genel kitleye yöneliktir ve çocuklardan bilerek kişisel veri
-  toplamaz.</p>
+  <h2>4. Üçüncü taraf hizmetleri ve topladıkları</h2>
+  <table>
+    <tr><th>Hizmet</th><th>Amaç</th><th>İşlenen veri türleri</th></tr>
+    <tr>
+      <td><strong>Google AdMob</strong></td>
+      <td>Ödüllü reklam gösterimi ve ölçümü</td>
+      <td>Cihaz tanımlayıcıları, reklam etkileşim verisi, kaba (şehir düzeyi)
+        konum, teşhis verisi</td>
+    </tr>
+    <tr>
+      <td><strong>Firebase Analytics</strong></td>
+      <td>Oyunun nasıl kullanıldığını anlamak (hangi bölümde bırakılıyor,
+        hangi özellik kullanılıyor)</td>
+      <td>Uygulama örneği kimliği, kullanım/etkileşim verisi, cihaz ve işletim
+        sistemi bilgisi, IP adresinden türetilen kaba konum</td>
+    </tr>
+    <tr>
+      <td><strong>Firebase Crashlytics</strong></td>
+      <td>Uygulama çökerse sebebini bulmak</td>
+      <td>Çökme kayıtları, performans verisi, cihaz ve işletim sistemi bilgisi</td>
+    </tr>
+  </table>
+  <p>Bu hizmetler Google tarafından sağlanır ve verileri Google’ın gizlilik
+  politikası kapsamında işlenir:
+  <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+  <p><strong>Yurt dışına aktarım:</strong> Bu hizmetler Google’a ait sunucularda
+  çalıştığı için verileriniz Türkiye dışında (başta ABD olmak üzere)
+  işlenebilir.</p>
 
-  <h2>5. Verilerinizin silinmesi</h2>
-  <p>Oyun ilerlemeniz cihazınızda tutulduğu için, uygulama içindeki
-  <em>Ayarlar &gt; İlerlemeyi Sıfırla</em> ile ya da uygulamayı kaldırarak
-  tüm yerel verilerinizi silebilirsiniz.</p>
+  <h2>5. Kişiselleştirilmiş reklam ve izleme izni (ATT)</h2>
+  <p>iOS’ta, ilk kez “reklam izle” dediğinizde sistemin <em>İzlemeye İzin Ver</em>
+  penceresi çıkar.</p>
+  <ul>
+    <li><strong>İzin verirseniz:</strong> reklamlar ilgi alanlarınıza göre
+      seçilebilir; cihaz reklam tanımlayıcınız reklam ortaklarıyla paylaşılır.</li>
+    <li><strong>İzin vermezseniz:</strong> reklamlar yine gösterilir, sadece
+      kişiselleştirilmez. Oyunda hiçbir şey kısıtlanmaz.</li>
+  </ul>
+  <p>Kararınızı istediğiniz zaman iOS <em>Ayarlar &gt; Gizlilik ve Güvenlik &gt;
+  İzleme</em> bölümünden değiştirebilirsiniz.</p>
+  <p>Avrupa Birliği/AEA ve Birleşik Krallık’taki kullanıcılara, reklam
+  kişiselleştirmesi için Google’ın onay (UMP) ekranı gösterilir.</p>
 
-  <h2>6. Değişiklikler</h2>
-  <p>Bu politika zaman zaman güncellenebilir. Değişiklikler bu sayfada yayınlanır.</p>
+  <h2>6. Çocuklar</h2>
+  <p>Uygulama genel kitleye yöneliktir; çocuklara özel olarak yönlendirilmemiştir
+  ve çocuklardan bilerek kişisel veri toplamaz. Reklam içeriği “genel izleyici”
+  (G) derecesiyle sınırlandırılmıştır.</p>
 
-  <h2>7. İletişim</h2>
+  <h2>7. Haklarınız</h2>
+  <p>KVKK (6698 sayılı Kanun) madde 11 ve GDPR kapsamında; işlenen verileriniz
+  hakkında bilgi talep etme, düzeltilmesini veya silinmesini isteme, işlemeye
+  itiraz etme ve şikâyette bulunma haklarına sahipsiniz. Talepleriniz için
+  <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a> adresine
+  yazabilirsiniz.</p>
+  <p><strong>Hukuki sebep:</strong> Oyunun çalışması için gereken yerel veriler
+  meşru menfaat kapsamında; reklam kişiselleştirmesi ve ölçüm ise
+  <strong>açık rızanıza</strong> dayanır.</p>
+  <p><strong>Saklama süresi:</strong> Cihazınızdaki veriler siz silene kadar
+  cihazınızda kalır. Üçüncü taraf hizmetlerdeki veriler, ilgili sağlayıcının
+  kendi saklama süreleri boyunca tutulur.</p>
+
+  <h2>8. Verilerin satılması</h2>
+  <p>Verilerinizi satmıyoruz ve yukarıda sayılan hizmetler dışında üçüncü
+  taraflarla paylaşmıyoruz.</p>
+
+  <h2>9. Değişiklikler</h2>
+  <p>Bu politika zaman zaman güncellenebilir. Değişiklikler bu sayfada, üstteki
+  tarih güncellenerek yayınlanır.</p>
+
+  <h2>10. İletişim</h2>
   <p>Sorularınız için: <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a></p>
 </body>
 </html>
