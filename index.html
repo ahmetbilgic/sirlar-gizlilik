@@ -3,234 +3,290 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sırlar — Gizlilik Politikası</title>
+<title>Sırlar — Aydınlatma Metni ve Gizlilik Politikası</title>
 <style>
   :root { color-scheme: light dark; }
   body { font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
-         max-width: 760px; margin: 0 auto; padding: 32px 20px; line-height: 1.6;
-         color: #1a1a1a; background: #fff; }
+         max-width: 780px; margin: 0 auto; padding: 32px 20px; line-height: 1.6;
+         color: #1a1a1a; background: #fff; font-size: 17px; }
   @media (prefers-color-scheme: dark) { body { color: #eaeaea; background: #101418; } }
   h1 { font-size: 1.9rem; margin-bottom: 4px; }
-  h2 { font-size: 1.25rem; margin-top: 32px; }
+  h2 { font-size: 1.3rem; margin-top: 34px; }
+  h3 { font-size: 1.08rem; margin-top: 22px; }
   .muted { opacity: .7; font-size: .95rem; }
   a { color: #2EC4B6; }
   table { border-collapse: collapse; width: 100%; margin-top: 8px; }
   th, td { border: 1px solid rgba(128,128,128,.35); padding: 8px 10px;
-           text-align: left; vertical-align: top; font-size: .96rem; }
+           text-align: left; vertical-align: top; font-size: .95rem; }
   th { background: rgba(128,128,128,.12); }
+  .kutu { border: 1px solid rgba(128,128,128,.35); border-radius: 10px;
+          padding: 12px 16px; background: rgba(128,128,128,.06); }
 </style>
 </head>
 <body>
-  <h1>Sırlar — Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: 29 Ekim 2026</p>
+  <h1>Sırlar — Aydınlatma Metni ve Gizlilik Politikası</h1>
+  <p class="muted">Son güncelleme: 29 Ekim 2026 · 6698 sayılı Kişisel Verilerin
+  Korunması Kanunu (KVKK) madde 10 ve Aydınlatma Yükümlülüğünün Yerine
+  Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca</p>
 
-  <p><strong>Sırlar</strong> (“uygulama”) Türkiye’nin illerini konu alan bir
-  kelime avı oyunudur. Bu politika, uygulamayı kullandığınızda hangi verilerin
-  işlendiğini, kimin işlediğini ve haklarınızı açıklar.</p>
+  <div class="kutu">
+    <p><strong>Veri sorumlusu:</strong> Ahmet Bilgiç (bireysel geliştirici,
+    Türkiye). <strong>İletişim:</strong>
+    <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a> ·
+    <a href="https://ahmetbilgic.com">ahmetbilgic.com</a></p>
+    <p style="margin-bottom:0"><strong>Kısaca:</strong> Sırlar ücretsiz bir
+    kelime oyunudur. Ad, e-posta, telefon numarası, konum izni ya da şifre
+    istemez. Oyun ilerlemeniz telefonunuzda durur. Sunucumuza oyun sonuçlarınız
+    rastgele bir cihaz kimliğiyle gider. Bu kimlik <strong>takma addır,
+    anonim değildir</strong>. Kayıt isteğe bağlıdır. Ölçüm (Google Firebase) ve
+    kişiselleştirilmiş reklam (Google AdMob) yalnız <strong>açık rızanızla</strong>
+    çalışır. Rıza vermeseniz de oyunun tamamı açıktır.</p>
+  </div>
 
-  <p><strong>Veri sorumlusu:</strong> Ahmet Bilgiç (bireysel geliştirici) —
-  iletişim: <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a></p>
+  <h2>1. Hangi verileri, hangi amaçla ve hangi hukuki sebeple işliyoruz</h2>
 
-  <h2>1. Kısaca</h2>
+  <h3>1.1 Telefonunuzda kalan veriler</h3>
+  <p>Tamamladığınız bölümler, altın, yıldız, seri, rozetler, aldığınız tahta
+  temaları, ayarlarınız ve izin seçimleriniz telefonunuzun kendi deposunda
+  tutulur ve bize gönderilmez. Seri hatırlatması telefonunuzda kurulan yerel
+  bir bildirimdir; sunucu kullanılmaz.</p>
+
+  <h3>1.2 Cihaz kimliği (takma ad)</h3>
+  <p>Uygulama ilk açılışta rastgele 24 haneli bir <strong>cihaz kimliği</strong>
+  üretir. Bu kimlik reklam kimliğiniz, IMEI ya da telefon numarası değildir.
+  Aşağıdaki oyun verileri bu kimlikle sunucumuza gider. Kimlik tek başına kim
+  olduğunuzu söylemez ama aynı telefonun verilerini birbirine bağlar; bu
+  yüzden <strong>takma addır (anonim değildir)</strong>. Kaydolursanız bu
+  kimlik Game Center ya da Google Play Oyunlar oyuncu kimliğinizle
+  eşleştirilir (1.4). Ayarlar &gt; Hakkında bölümündeki <strong>Oyuncu
+  kodu</strong> bu kimliğin ilk 8 hanesidir; silme isteğinde bunu yazarsınız.
+  Kimlik “Kayıt verimi sil”, “Bu cihazın oyun verilerini sil” ve “İlerlemeyi
+  Sıfırla” ile yenilenir; eskisiyle bağı kalmaz.</p>
+
+  <h3>1.3 Oyun sonuçları (herkes)</h3>
+  <p>Bölüm bitirdiğinizde ve Günün Sırrı’nı çözdüğünüzde sunucumuza
+  (ahmetbilgic.com) gidenler: cihaz kimliği, uygulamanın derleme numarası,
+  haftalık ve toplam yıldız sayısı, bitirilen bölüm sayısı, Günün Sırrı’nın
+  tarihi, çözüm süresi, ipucu sayısı ve yıldızı, bir bölümü ilk kez
+  bitirdiğinizdeki süre ve ipucu sayısı.</p>
   <ul>
-    <li>Hesap açmanızı istemiyoruz; adınızı, e-postanızı, telefon numaranızı
-      veya konum izninizi <strong>istemiyoruz</strong> (isteğe bağlı kayıt
-      dışında, madde 6).</li>
-    <li>Oyun ilerlemeniz cihazınızda saklanır. Yalnızca haftalık yıldız
-      toplamlarınız ve günün bulmacası sonuçlarınız (süre, ipucu, yıldız),
-      uygulamanın ürettiği <strong>rastgele</strong> bir cihaz kimliğiyle
-      birlikte <strong>anonim</strong> olarak sunucumuza gönderilir; kişisel
-      veri içermez (madde 5).</li>
-    <li><strong>İsteğe bağlı</strong> olarak Game Center / Google Play
-      Oyunlar ile giriş yapıp sıralamaya katılabilirsiniz; bu durumda ek
-      veriler işlenir (madde 6). Giriş yapmazsanız hiçbir şey eksilmez.</li>
-    <li>Uygulamada <strong>reklam</strong> (Google AdMob) ve <strong>ölçüm</strong>
-      (Google Firebase) hizmetleri kullanılır; bu hizmetler kendi
-      politikaları kapsamında bazı veriler toplar. Ayrıntısı aşağıda.</li>
-    <li>Reklamların tamamı <strong>isteğe bağlıdır</strong>; izlemek zorunda
-      değilsiniz, oyunun hiçbir bölümü reklam izlemeye kilitli değildir.</li>
-    <li>Tanıtım QR kodlarımızın ve Android kurulumlarının <strong>hangi
-      kaynaktan</strong> geldiğini kendi sunucumuzda, kimliğinizi bilmeden
-      sayarız (madde 4).</li>
+    <li><strong>Amaç:</strong> “bugün çözenlerin ilk %X’i” ve “bu bölümü
+      çözenler” özetleri, haftalık lig, “Gezgin” satırlarının puan
+      eğrileri.</li>
+    <li><strong>Hukuki sebep:</strong> KVKK madde 5/2-c, sözleşmenin ifası
+      (oyun özelliğinin kendisi). Bu veriler rızaya bağlı değildir, çünkü
+      özellik onlarsız çalışmaz.</li>
+    <li>İnternet yoksa sonuçlar telefonunuzda bekler; oyun aynı şekilde
+      oynanır.</li>
   </ul>
 
-  <h2>2. Cihazınızda kalan veriler</h2>
-  <p>Tamamladığınız bölümler, altın, yıldız, seri, rozetler, satın aldığınız
-  oyun tahtası temaları ve ayarlarınız cihazınızın yerel deposunda tutulur.
-  Bu verilerin kendisi bize <strong>gönderilmez</strong>; yalnızca madde 5’te
-  sayılan anonim özet (haftalık yıldız toplamları ve günün bulmacası
-  sonuçları) rastgele cihaz kimliğiyle sunucumuza gönderilir; yalnızca
-  isteğe bağlı kayıt yaptıysanız ilerleme yedeğiniz de gönderilir (madde 6). Uygulamayı
-  silerseniz ya da <em>Ayarlar &gt; İlerlemeyi Sıfırla</em> derseniz
-  cihazınızdaki verilerin tamamı silinir.</p>
-
-  <h2>3. Oyun içeriğinin indirilmesi</h2>
-  <p>Bölüm ve kelime verileri güncel kalsın diye internetten, herkese açık bir
-  dosyadan indirilir. Bu istekte kişisel veriniz gönderilmez; yalnızca standart
-  bağlantı bilgileri (IP adresi gibi) barındırma sağlayıcısına ulaşır.</p>
-
-  <h2>4. Tanıtım QR kodları ve kurulum kaynağı</h2>
-  <p>Afiş, broşür ve sosyal medya paylaşımlarındaki Sırlar QR kodları ve
-  bağlantıları önce <strong>ahmetbilgic.com/sirlar</strong> adresine gelir,
-  oradan App Store’a veya Google Play’e yönlendirir. Amaç yalnızca hangi
-  tanıtımın işe yaradığını <strong>toplu olarak</strong> saymaktır.</p>
+  <h3>1.4 Kayıt ve sıralamalar (isteğe bağlı)</h3>
+  <p>Sıralamaları giriş yapmadan da görebilirsiniz. Listelerde adınızla yer
+  almak ve ilerlemenizi yedeklemek isterseniz iOS’ta Game Center, Android’de
+  Google Play Oyunlar ile kaydolursunuz. E-posta ya da şifre sormayız.
+  Kaydolunca işlenenler:</p>
   <ul>
-    <li><strong>QR kodunu okuttuğunuzda</strong> kaydedilenler: hangi QR’ın
-      okutulduğu (ör. bir mekânın kodu), tarih-saat, cihaz türü (iPhone /
-      Android / diğer) ve tarayıcı bilgisi (user-agent). IP adresiniz
-      <strong>kaydedilmez</strong>; aynı kişinin tekrar okutmasını bir kez
-      saymak için IP adresi ve tarayıcı bilgisinden geri çevrilemeyen bir
-      özet (tuzlanmış karma) üretilir ve yalnızca bu özet saklanır.</li>
-    <li><strong>Android’de uygulamayı ilk açtığınızda</strong> uygulama,
-      Google Play’in kurulum kaynağı bilgisini (Install Referrer) okur ve
-      sunucumuza yalnızca şunları gönderir: kurulumun geldiği kaynak (ör.
-      bir QR kodunun adı ya da “doğrudan”), uygulamanın derleme numarası ve
-      uygulamanın kendi ürettiği <strong>rastgele</strong> bir kimlik (aynı
-      cihazın iki kez sayılmaması için). Bu kimlik reklam kimliğiniz değildir.
-      Aynı rastgele kimlik madde 5’teki anonim istatistiklerde de kullanılır;
-      kimliğinizle, reklam kimliğinizle ya da Google hizmetlerindeki
-      verilerle eşleştirilmez. iOS’ta bu bildirim yapılmaz.</li>
-    <li>Bu kayıtlarda adınız, e-postanız, telefon numaranız, konumunuz veya
-      oyun ilerlemeniz <strong>yoktur</strong>; kim olduğunuzu bilmeyiz.</li>
-    <li>Kayıtlar ahmetbilgic.com sunucusunda tutulur, yalnızca geliştirici
-      görür, kimseyle paylaşılmaz ve en fazla <strong>24 ay</strong> sonra
-      otomatik olarak silinir.</li>
-  </ul>
-
-  <h2>5. Günün bulmacası ve anonim istatistik</h2>
-  <p>Günün bulmacasını çözdüğünüzde ve bölüm bitirdiğinizde, rastgele üretilmiş
-  cihaz kimliği, uygulamanın derleme numarası, günün bulmacasının tarihi,
-  çözüm süresi, ipucu sayısı, kazanılan yıldız sayısı, haftalık yıldız
-  toplamı ve toplam yıldız sayısı sunucumuza (ahmetbilgic.com) gönderilir.
-  Bir bölümü ilk kez bitirdiğinizde o bölümdeki süreniz ve ipucu sayınız da,
-  bitirdiğiniz bölüm sayısıyla birlikte, bölüm sıralamaları için anonim olarak
-  saklanır (kayıtlıysanız madde 6’daki gibi adınızla da listelenebilir). Bu kayıtlar kişisel veri
-  içermez; adınız, e-postanız, konumunuz veya reklam kimliğiniz
-  <strong>yoktur</strong>. İnternet yoksa sonuçlar cihazınızda bekler, oyun
-  aynı şekilde oynanır. Kayıtları yalnızca geliştirici görür, kimseyle
-  paylaşılmaz ve en fazla <strong>24 ay</strong> saklanır.</p>
-
-  <h2>6. Kayıt ve sıralamalar (isteğe bağlı)</h2>
-  <p>Haftalık lig, il takımları ve genel sıralamayı <strong>giriş yapmadan</strong>
-  da görebilirsiniz. Sıralamaya katılmak ve ilerlemenizi yedeklemek isterseniz,
-  iOS’ta <strong>Game Center</strong> ile, Android’de <strong>Google Play
-  Oyunlar</strong> ile giriş yapabilirsiniz. Bu tamamen isteğe bağlıdır; e-posta
-  veya şifre sormayız, oyun içinde serbest metin (ad, mesaj) yazılmaz.</p>
-  <p><strong>Giriş yaparsanız işlenen veriler:</strong></p>
-  <ul>
-    <li>platform oyuncu kimliği (Game Center veya Google Play Oyunlar’ın verdiği
-      kimlik),</li>
-    <li>platform görünen adınız; iOS’ta isterseniz bunun yerine uygulamanın
-      ürettiği hazır bir ad,</li>
+    <li>platform oyuncu kimliği (Apple veya Google’ın verdiği) ve platform
+      görünen adınız; iOS’ta isterseniz onun yerine uygulamanın ürettiği hazır
+      ad,</li>
     <li>seçtiğiniz il,</li>
-    <li>ilerleme yedeği (yalnızca oyun verileriniz: bölümler, yıldız, altın,
-      rozetler, seri, satın aldığınız temalar, günün bulmacası sonuçları ve lig
-      profiliniz, yani listelerdeki adınız ve seçtiğiniz il; cihaz ayarlarınız ve
-      giriş bilgileriniz yedeğe girmez),</li>
-    <li>lig puanlarınız,</li>
-    <li>bölüm sıralamaları için bölüm süreniz, ipucu sayınız ve bitirdiğiniz
-      bölüm sayısı; bunlar sıralamalarda adınızın yanında görünebilir.</li>
-    <li>bir davet kodu kullanırsanız hangi hesabın hangi hesabı davet ettiği
-      (platform oyuncu kimlikleri) ve davet ödülünün verilip verilmediği; davet
-      ödülü yalnızca oyun içi altındır.</li>
+    <li>ilerleme yedeği: bölümler, yıldız, altın, rozetler, seri, temalar,
+      Günün Sırrı sonuçları, listelerdeki adınız ve iliniz (cihaz ayarlarınız
+      ve giriş bilgileriniz yedeğe girmez),</li>
+    <li>oturum anahtarı (180 gün geçerli),</li>
+    <li>davet kodu kullanırsanız hangi hesabın hangi hesabı davet ettiği ve
+      ödülün ödenip ödenmediği. Davet ödülü yalnızca oyun içi altındır.</li>
   </ul>
-  <p><strong>Amaç:</strong> sıralamaları göstermek ve ilerlemenizi yeni bir
-  telefona taşımanızı sağlamak. Bu veriler reklam kimliğinizle
-  <strong>ilişkilendirilmez</strong>, satılmaz ve üçüncü taraflarla paylaşılmaz.
-  Listelerde “Gezgin” simgesiyle görünen satırlar gerçek kişiler değildir;
-  gerçek oyuncuların anonim haftalık puanlarından üretilir ve uygulamanın
-  ürettiği hazır adlar (sıfat + isim) taşır.</p>
-  <p><strong>Saklama ve silme:</strong> Son etkinliğinizden itibaren en fazla
-  <strong>24 ay</strong> saklanır. İstediğiniz zaman <em>Ayarlar &gt; Kayıt &gt;
-  “Kayıt verimi sil”</em> ile yedeğinizi, giriş bağlantınızı, adınızı, seçtiğiniz
-  ili ve bu haftanın lig listesindeki satırınızı silersiniz. Geçmiş haftaların lig
-  puanları yalnızca adsız, anonim istatistik olarak kalır. Telefonunuzdaki
-  ilerleme silinmez, cihazınızda kalır.</p>
-
-  <h2>7. Üçüncü taraf hizmetleri ve topladıkları</h2>
-  <table>
-    <tr><th>Hizmet</th><th>Amaç</th><th>İşlenen veri türleri</th></tr>
-    <tr>
-      <td><strong>Apple Game Center / Google Play Oyunlar</strong></td>
-      <td>İsteğe bağlı giriş; oyuncu kimliği ve görünen adın doğrulanması</td>
-      <td>Oyuncu kimliği, görünen ad</td>
-    </tr>
-    <tr>
-      <td><strong>Google AdMob</strong></td>
-      <td>Ödüllü reklam gösterimi ve ölçümü</td>
-      <td>Cihaz tanımlayıcıları, reklam etkileşim verisi, kaba (şehir düzeyi)
-        konum, teşhis verisi</td>
-    </tr>
-    <tr>
-      <td><strong>Firebase Analytics</strong></td>
-      <td>Oyunun nasıl kullanıldığını anlamak (hangi bölümde bırakılıyor,
-        hangi özellik kullanılıyor)</td>
-      <td>Uygulama örneği kimliği, kullanım/etkileşim verisi, cihaz ve işletim
-        sistemi bilgisi, IP adresinden türetilen kaba konum</td>
-    </tr>
-    <tr>
-      <td><strong>Firebase Crashlytics</strong></td>
-      <td>Uygulama çökerse sebebini bulmak</td>
-      <td>Çökme kayıtları, performans verisi, cihaz ve işletim sistemi bilgisi</td>
-    </tr>
-  </table>
-  <p>Bu hizmetler Google tarafından sağlanır ve verileri Google’ın gizlilik
-  politikası kapsamında işlenir:
-  <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
-  <p><strong>Yurt dışına aktarım:</strong> Bu hizmetler Google’a ait sunucularda
-  çalıştığı için verileriniz Türkiye dışında (başta ABD olmak üzere)
-  işlenebilir.</p>
-
-  <h2>8. Kişiselleştirilmiş reklam ve izleme izni (ATT)</h2>
-  <p>iOS’ta, ilk kez “reklam izle” dediğinizde sistemin <em>İzlemeye İzin Ver</em>
-  penceresi çıkar.</p>
   <ul>
-    <li><strong>İzin verirseniz:</strong> reklamlar ilgi alanlarınıza göre
-      seçilebilir; cihaz reklam tanımlayıcınız reklam ortaklarıyla paylaşılır.</li>
-    <li><strong>İzin vermezseniz:</strong> reklamlar yine gösterilir, sadece
-      kişiselleştirilmez. Oyunda hiçbir şey kısıtlanmaz.</li>
+    <li><strong>Amaç:</strong> sıralamalar, il takımı, ilerlemeyi yeni
+      telefona taşıma, arkadaş daveti ödülü.</li>
+    <li><strong>Hukuki sebep:</strong> KVKK madde 5/2-c, sözleşmenin ifası
+      (kaydolarak bu özellikleri istersiniz).</li>
   </ul>
-  <p>Kararınızı istediğiniz zaman iOS <em>Ayarlar &gt; Gizlilik ve Güvenlik &gt;
-  İzleme</em> bölümünden değiştirebilirsiniz.</p>
-  <p>Avrupa Birliği/AEA ve Birleşik Krallık’taki kullanıcılara, reklam
-  kişiselleştirmesi için Google’ın onay (UMP) ekranı gösterilir.</p>
+  <p><strong>Herkese görünenler:</strong> kayıtlı oyuncunun listelerdeki adı,
+  ili, haftalık puanı, toplam yıldızı ve bitirdiği bölüm sayısı, “Bu bölümün
+  en hızlıları” listesinde o bölümdeki süresi ve ipucu sayısı. Kayıtsız
+  oyuncunun adı hiçbir listede görünmez. “Gezgin” simgeli satırlar gerçek
+  kişiler değildir; gerçek oyuncuların puanlarından üretilir, hazır ad taşır.</p>
 
-  <h2>9. Çocuklar</h2>
-  <p>Uygulama genel kitleye yöneliktir; çocuklara özel olarak yönlendirilmemiştir
-  ve çocuklardan bilerek kişisel veri toplamaz. Reklam içeriği “genel izleyici”
-  (G) derecesiyle sınırlandırılmıştır.</p>
+  <h3>1.5 Kötüye kullanımın önlenmesi ve güvenlik</h3>
+  <ul>
+    <li>Uygunsuz adlar bir kelime listesiyle süzülür; süzülen adın yerine
+      hazır ad gösterilir.</li>
+    <li><strong>Adı bildir:</strong> listede bir ada uzun basıp bildirebilirsiniz.
+      Bildirim, bildirenin cihaz kimliğinin geri çevrilemeyen bir özetiyle ve
+      bildirilen oyuncuyla saklanır; geliştiriciye bildirim gider. Üç farklı
+      kişi bildirirse ad kendiliğinden hazır ada döner. <strong>Oyuncuyu
+      gizle</strong> yalnız sizin telefonunuzda çalışır; sunucuya bir şey
+      gitmez, Ayarlar &gt; Gizlenen oyuncular’dan geri alınır.</li>
+    <li>Puan artışlarına ve istek sayısına üst sınır konur; sık istekler için
+      kısa süreli, geri çevrilemeyen sayaçlar tutulur (1 gün).</li>
+    <li>Davet ödülünün ikinci kez alınmaması için kayıt silinse de kullanılan
+      davetin anahtarlı bir özeti saklanır.</li>
+    <li><strong>Hukuki sebep:</strong> KVKK madde 5/2-f, meşru menfaat
+      (oyunun ve diğer oyuncuların korunması). Saklanan veri en aza indirilir.</li>
+  </ul>
 
-  <h2>10. Haklarınız</h2>
-  <p>KVKK (6698 sayılı Kanun) madde 11 ve GDPR kapsamında; işlenen verileriniz
-  hakkında bilgi talep etme, düzeltilmesini veya silinmesini isteme, işlemeye
-  itiraz etme ve şikâyette bulunma haklarına sahipsiniz. Talepleriniz için
+  <h3>1.6 Tanıtım QR kodları ve kurulum kaynağı</h3>
+  <p>Afiş ve paylaşımlardaki Sırlar QR kodları önce ahmetbilgic.com/sirlar
+  adresine gelir, oradan mağazaya yönlendirir. Kaydedilenler: hangi QR’ın
+  okutulduğu, tarih-saat, cihaz türü, tarayıcı bilgisi ve IP adresiyle
+  tarayıcı bilgisinden türetilen tuzlanmış bir özet (IP adresinin kendisi
+  saklanmaz). Android’de uygulama ilk açılışta Google Play’in kurulum kaynağı
+  bilgisini okur ve kaynak adını, derleme numarasını ve cihaz kimliğini
+  gönderir. <strong>Amaç:</strong> hangi tanıtımın işe yaradığını toplu
+  saymak. <strong>Hukuki sebep:</strong> KVKK madde 5/2-f, meşru menfaat.</p>
+
+  <h3>1.7 Oyun kullanım ölçümü (yalnız açık rızayla)</h3>
+  <p>İzin verirseniz Google Firebase Analytics oyunun nasıl kullanıldığını
+  (hangi bölümde bırakıldığı, hangi özelliğin kullanıldığı) ve Firebase
+  Crashlytics oyunun nerede çöktüğünü ölçer. İşlenen veriler: uygulama örneği
+  kimliği, kullanım ve etkileşim olayları, cihaz ve işletim sistemi bilgisi,
+  IP adresinden türetilen kaba konum, çökme kayıtları. <strong>Hukuki sebep:
+  açık rıza</strong> (KVKK madde 5/1 ve yurt dışı aktarım için madde 9).
+  İzin vermezseniz toplama kapalı kalır, uygulama ilk açılıştan beri kapalı
+  başlar; telefonda bekleyen çökme raporları da gönderilmeden silinir.</p>
+
+  <h3>1.8 Reklamlar (Google AdMob)</h3>
+  <p>Oyunu ücretsiz tutmak için isteğe bağlı ödüllü reklamlar vardır; hiçbir
+  bölüm reklama kilitli değildir. Reklam gösterimi için AdMob cihaz
+  tanımlayıcıları, reklam etkileşim verisi, kaba konum ve teşhis verisi
+  işler.</p>
+  <ul>
+    <li><strong>Kişiselleştirilmiş reklamlar (yalnız açık rızayla):</strong>
+      izin verirseniz reklamlar ilgi alanınıza göre seçilebilir. iOS’ta bu
+      durumda, izin ekranından hemen sonra Apple’ın <strong>İzlemeye İzin
+      Ver (ATT)</strong> penceresi çıkar; orada da ayrıca karar verirsiniz.</li>
+    <li><strong>İzin vermezseniz:</strong> her reklam isteği
+      “kişiselleştirilmemiş” olarak gönderilir ve iOS’ta ATT penceresi hiç
+      gösterilmez. Reklamlar yine çalışır, ödülü alırsınız.</li>
+    <li>Reklamlar “genel izleyici” (G) derecesiyle sınırlıdır. Uygunsuz bir
+      reklam görürseniz Ayarlar &gt; Uygunsuz reklamı bildir ile bize yazın.</li>
+    <li>Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık’ta ayrıca Google’ın
+      onay ekranı (UMP) gösterilir ve Ayarlar &gt; Gizlilik Seçenekleri’nden
+      değiştirilebilir.</li>
+  </ul>
+
+  <h3>1.9 Oyun içeriği ve bu sayfa</h3>
+  <p>Bölüm ve kelime verileri herkese açık bir dosyadan (GitHub) indirilir;
+  bu sayfa ve kullanım şartları da GitHub Pages’te yayınlanır. Bu isteklerde
+  kişisel veri gönderilmez; yalnızca standart bağlantı bilgileri (IP adresi
+  gibi) GitHub’a ulaşır. <strong>Hukuki sebep:</strong> KVKK madde 5/2-c
+  (içeriğin sunulması).</p>
+
+  <h2>2. İzinlerinizi nasıl veriyorsunuz, nasıl değiştiriyorsunuz</h2>
+  <p>Uygulama bu sürümle ilk açıldığında herkese bir kez izin ekranı
+  gösterilir. “Kabul ediyorum” ve “Reddediyorum” aynı büyüklüktedir;
+  “Tercihleri ayarla” ile iki izni ayrı ayrı seçebilirsiniz (ikisi de
+  başta kapalıdır). Seçiminizi istediğiniz an <strong>Ayarlar &gt;
+  İzinler</strong>’den değiştirirsiniz; değişiklik hemen geçerli olur.
+  iOS’taki ATT kararınızı iOS Ayarlar &gt; Gizlilik ve Güvenlik &gt; İzleme
+  bölümünden de değiştirebilirsiniz. Rızanızı geri almanız, önceki işlemenin
+  hukuka uygunluğunu etkilemez.</p>
+
+  <h2>3. Verileri kimlere aktarıyoruz</h2>
+  <table>
+    <tr><th>Alıcı</th><th>Neden</th><th>Ne</th></tr>
+    <tr><td>Türkiye’deki barındırma sağlayıcımız</td>
+      <td>Sunucumuzun (ahmetbilgic.com) çalıştığı yer</td>
+      <td>1.3–1.6’daki veriler</td></tr>
+    <tr><td>Google (Firebase Analytics, Crashlytics)</td>
+      <td>Ölçüm, yalnız açık rızayla</td><td>1.7’deki veriler</td></tr>
+    <tr><td>Google (AdMob)</td><td>Reklam gösterimi; kişiselleştirme yalnız
+      açık rızayla</td><td>1.8’deki veriler</td></tr>
+    <tr><td>Apple (Game Center) / Google (Play Oyunlar)</td>
+      <td>İsteğe bağlı kayıtta kimliğinizi doğrulamak</td>
+      <td>Platform oyuncu kimliği, görünen ad</td></tr>
+    <tr><td>GitHub</td><td>Oyun içeriği ve bu sayfanın yayınlanması</td>
+      <td>Standart bağlantı bilgileri</td></tr>
+  </table>
+  <p>Verilerinizi satmıyoruz. Bunların dışında kimseyle paylaşmıyoruz; yasal
+  bir zorunluluk olursa yetkili kurumlara bildirilebilir.</p>
+  <p><strong>Yurt dışına aktarım:</strong> Google, Apple ve GitHub verileri
+  Türkiye dışında (başta ABD olmak üzere) işleyebilir. Ölçüm ve
+  kişiselleştirilmiş reklam için bu aktarım <strong>açık rızanıza</strong>
+  dayanır (KVKK madde 9). Kayıt için Game Center / Play Oyunlar doğrulaması
+  ve içeriğin GitHub’dan indirilmesi, istediğiniz hizmetin sunulması için
+  gereklidir. Kendi sunucumuz Türkiye’dedir.</p>
+
+  <h2>4. Verileri nasıl topluyoruz</h2>
+  <p>Otomatik yollarla: uygulamanın kendisi, uygulamadaki Google ve
+  Apple/Google Play yazılım bileşenleri, kendi sunucumuz ve QR okutmaları.
+  Sizden elle yazdığınız hiçbir metin (ad, mesaj) alınmaz; tek istisna elle
+  yazılan davet kodudur.</p>
+
+  <h2>5. Ne kadar saklıyoruz</h2>
+  <ul>
+    <li>Telefonunuzdaki veriler: siz silene kadar (uygulamayı silmek ya da
+      İlerlemeyi Sıfırla).</li>
+    <li>Oyun sonuçları, lig, il, bölüm süreleri, haftalık sonuçlar: en fazla
+      24 ay.</li>
+    <li>Kayıt, ilerleme yedeği, davet kodları: son etkinlikten itibaren en
+      fazla 24 ay; oturum anahtarı 180 gün.</li>
+    <li>Ad bildirimleri ve ad kilidi özeti, kullanılan davetin özeti: 24 ay.</li>
+    <li>QR okutma ve kurulum kaynağı kayıtları: 24 ay.</li>
+    <li>İstek sınırı sayaçları: 1 gün. Silinmiş oturumların özeti (silme
+      isteğinin tekrarlanabilmesi için): 30 gün.</li>
+    <li>Google ve Apple’daki veriler: ilgili sağlayıcının kendi saklama
+      süreleri.</li>
+  </ul>
+  <p>Süresi dolan kayıtlar sunucuda kendiliğinden silinir.</p>
+
+  <h2>6. Verilerinizi silme</h2>
+  <ul>
+    <li><strong>Kayıtlıysanız:</strong> Ayarlar &gt; Kayıt &gt; “Kayıt verimi
+      sil”. Sunucumuzdaki hesabınız, yedeğiniz, oturumlarınız, davet kodunuz,
+      iliniz, adınız ve bu telefonun tüm lig, puan, Günün Sırrı, bölüm süresi
+      ve haftalık sonuç satırları silinir; cihaz kimliği yenilenir. Kullanılan
+      davetin anahtarlı özeti ile (varsa) ad kilidi özeti kötüye kullanımı
+      önlemek için kalır. Telefonunuzdaki ilerleme kalır.</li>
+    <li><strong>Kayıtsızsanız:</strong> Ayarlar &gt; “Bu cihazın oyun
+      verilerini sil”. Bu telefonun sunucudaki tüm satırları silinir, cihaz
+      kimliği yenilenir.</li>
+    <li><strong>İlerlemeyi Sıfırla</strong> yalnız telefondaki ilerlemeyi,
+      bekleyen puanları ve davet işaretini siler ve cihaz kimliğini yeniler.
+      Kaydınız ve sunucudaki yedeğiniz “Kayıt verimi sil” diyene kadar
+      kalır.</li>
+    <li><strong>Web’den ya da e-postayla:</strong>
+      <a href="https://ahmetbilgic.com/sirlar/silme.html">ahmetbilgic.com/sirlar/silme.html</a>
+      sayfasındaki adımlarla ya da
+      <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a>
+      adresine Ayarlar &gt; Hakkında’daki <strong>Oyuncu kodu</strong>nuzla
+      yazarak. İsteğiniz en geç 30 gün içinde yerine getirilir.</li>
+  </ul>
+  <p>Google ve Apple’ın tuttuğu veriler için ilgili şirketin kendi araçlarını
+  kullanabilirsiniz: <a href="https://policies.google.com/privacy">Google
+  gizlilik politikası</a>, <a href="https://www.apple.com/legal/privacy/">Apple
+  gizlilik politikası</a>.</p>
+
+  <h2>7. Haklarınız (KVKK madde 11)</h2>
+  <p>Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi
+  isteme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını
+  öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,
+  eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK madde 7’deki
+  şartlarla silinmesini veya yok edilmesini isteme, düzeltme ve silme
+  işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, yalnız
+  otomatik sistemlerle analiz edilmesi sonucunda aleyhinize bir sonuç çıkmasına
+  itiraz etme ve kanuna aykırı işleme yüzünden zarara uğrarsanız zararın
+  giderilmesini isteme haklarına sahipsiniz.</p>
+  <p><strong>Nasıl başvurursunuz (KVKK madde 13):</strong> isteğinizi
   <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a> adresine
-  yazabilirsiniz.</p>
-  <p><strong>Hukuki sebep:</strong> Oyunun çalışması için gereken yerel veriler,
-  tanıtım kaynağının toplu sayımı (madde 4) ve anonim oyun istatistikleri
-  (madde 5) meşru menfaat kapsamında; Game Center / Google Play Oyunlar ile
-  kayıt, sıralama ve ilerleme yedeği (madde 6) giriş yapma tercihinize
-  (<strong>açık rızanıza</strong>) dayanır ve istediğiniz zaman silinebilir;
-  reklam kişiselleştirmesi ve ölçüm de <strong>açık rızanıza</strong>
-  dayanır.</p>
-  <p><strong>Saklama süresi:</strong> Cihazınızdaki veriler siz silene kadar
-  cihazınızda kalır. QR okutma ve kurulum kaynağı kayıtları (madde 4) ile
-  günün bulmacası ve anonim istatistik kayıtları (madde 5) en fazla 24 ay
-  tutulur; kayıt, sıralama ve ilerleme yedeği (madde 6) son etkinlikten
-  itibaren en fazla 24 ay tutulur ve <em>Ayarlar &gt; Kayıt &gt; “Kayıt verimi
-  sil”</em> ile her zaman silinebilir. Üçüncü taraf hizmetlerdeki veriler, ilgili sağlayıcının
-  kendi saklama süreleri boyunca tutulur.</p>
+  yazın; oyunla ilgili verileriniz için Oyuncu kodunuzu da ekleyin.
+  Başvurunuz ücretsiz olarak, en geç 30 gün içinde sonuçlandırılır.
+  Yanıttan memnun kalmazsanız Kişisel Verileri Koruma Kurulu’na şikâyette
+  bulunabilirsiniz.</p>
 
-  <h2>11. Verilerin satılması</h2>
-  <p>Verilerinizi satmıyoruz ve yukarıda sayılan hizmetler dışında üçüncü
-  taraflarla paylaşmıyoruz. Madde 4’teki QR ve kurulum kayıtları ile madde 6’daki
-  kayıt verileri hiç kimseyle paylaşılmaz.</p>
+  <h2>8. Çocuklar</h2>
+  <p>Sırlar çocuklara yönelik bir uygulama değildir; genel kitleye yöneliktir.
+  13 yaşından küçük çocuklardan bilerek kişisel veri toplamayız. Böyle bir
+  verinin işlendiğini fark ederseniz bize yazın, sileriz.</p>
 
-  <h2>12. Değişiklikler</h2>
-  <p>Bu politika zaman zaman güncellenebilir. Değişiklikler bu sayfada, üstteki
-  tarih güncellenerek yayınlanır.</p>
+  <h2>9. Değişiklikler</h2>
+  <p>Bu metin güncellenebilir. Değişiklik bu sayfada, üstteki tarih
+  güncellenerek yayınlanır. İzinlerle ilgili metin değişirse uygulama
+  seçiminizi yeniden sorar.</p>
 
-  <h2>13. İletişim</h2>
-  <p>Sorularınız için: <a href="mailto:info@ahmetbilgic.com">info@ahmetbilgic.com</a></p>
+  <p class="muted">Kullanım şartları:
+  <a href="https://ahmetbilgic.github.io/sirlar-gizlilik/kullanim-sartlari.html">ahmetbilgic.github.io/sirlar-gizlilik/kullanim-sartlari.html</a></p>
 </body>
 </html>
